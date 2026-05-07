@@ -9,6 +9,16 @@ let btns=["red","yellow","teal","blue"];
 
 let body=document.querySelector('body');
 let h3=document.querySelector('h3');
+let startBtn=document.querySelector(".start-btn");
+
+startBtn.addEventListener("click", ()=>{
+    if(started==false){
+        console.log("Game Started");
+        started=true;
+        levelUp();
+    }
+});
+
 document.addEventListener("keypress",function(){
     if(started==false){
         console.log("Game Started");
