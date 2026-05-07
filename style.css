@@ -34,3 +34,14 @@ body{
 .end{
     background-color: red;
 }
+.start-btn{
+    border: 3px solid black;
+    height: 2rem;
+    width: 4rem;
+    padding: 5px;
+}
+.start-btn:hover{
+    border-radius: 1.5rem;
+    background-color: lightgreen;
+    cursor: pointer;
+}
